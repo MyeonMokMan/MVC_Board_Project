@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+}
+
+body {
+  height: 120vh;
+}
+
+header {
+  width: 1000px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main {
+  width: 1000px;
+}
+
+/*테이블 css*/
+#login-form__table {
+  width: 700px;
+  border: 1px solid;
+}
+
+/*테이블 tr css*/
+.login-form__tr {
+  height: 70px;
+}
+
+/*테이블 td icons css*/
+.login-form__icons {
+  width: 150px;
+  text-align: center;
+}
+
+/*테이블 input type:text,password css*/
+.login-form__inputs {
+  width: 500px;
+  height: 30px;
+  border: none;
+  background-color: gainsboro;
+}
+
+/*테이블 tr css*/
+.login-form__buttons {
+  width: 650px;
+  height: 35px;
+}
+
+.common-td {
+  text-align: center;
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
