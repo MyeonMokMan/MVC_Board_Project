@@ -10,29 +10,31 @@
   <body>
     <center>
       <header>
-        <h2>게시판 로그인</h2>
+        <h1>게시판 로그인</h1>
       </header>
       <main>
         <table id="login-form__table">
           <tr class="login-form__tr">
-            <td class="login-form__icons"><i class="far fa-user fa-2x"></i></td>
+            <td class="login-form__icons"><i class="far fa-user fa-3x"></i></td>
             <td>
               <input
                 class="login-form__inputs"
                 type="text"
                 name="id"
                 required
+                placeholder="&nbsp;아이디"
               />
             </td>
           </tr>
           <tr class="login-form__tr">
-            <td class="login-form__icons"><i class="fas fa-lock fa-2x"></i></td>
+            <td class="login-form__icons"><i class="fas fa-lock fa-3x"></i></td>
             <td>
               <input
                 class="login-form__inputs"
                 type="text"
                 name="id"
                 required
+                placeholder="&nbsp;비밀번호"
               />
             </td>
           </tr>
@@ -44,13 +46,18 @@
           <tr class="login-form__tr">
             <td colspan="2" class="common-td">
               <input
-                class="login-form__buttons"
+                class="login-form__buttons login-form__buttons2"
                 type="button"
                 value="회원가입"
+                onclick="location.href='#'"
               />
             </td>
           </tr>
-          <tr class="login-form__tr"></tr>
+          <tr class="login-form__tr">
+            <td colspan="2" class="common-td sign-up">
+              <a id="find-id_password" href="#">아이디/비밀번호 찾기></a>
+            </td>
+          </tr>
         </table>
       </main>
       <footer>이용약관 등등</footer>
