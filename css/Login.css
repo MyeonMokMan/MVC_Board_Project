@@ -34,9 +34,14 @@ main {
   text-align: center;
 }
 
+/*테이블 input 태그에 있는 td태그 css*/
+.login-form__td-inputs {
+  text-align: right;
+}
+
 /*테이블 input type:text,password css*/
 .login-form__inputs {
-  width: 512px;
+  width: 520px;
   height: 40px;
   border: none;
   background-color: gainsboro;
@@ -44,7 +49,7 @@ main {
 
 /*테이블 tr css*/
 .login-form__buttons {
-  width: 650px;
+  width: 700px;
   height: 50px;
   color: white;
   background-color: steelblue;
